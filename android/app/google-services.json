@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "737608519127",
+    "project_id": "onlineapp-71594",
+    "storage_bucket": "onlineapp-71594.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:737608519127:android:413c7ede7316c890d04f92",
+        "android_client_info": {
+          "package_name": "com.example.mr_house"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoNpQD1UXlUHMc-7yCNGD7jqEhpE7j9pc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
