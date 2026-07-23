@@ -1,16 +1,45 @@
-# mr_house
+# Mr. House — E-Learning Platform
 
-A new Flutter project.
+A Flutter-based e-learning app with Firebase backend, featuring role-based access for students and professors.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Email/password authentication with signup, login, and password reset
+- Dual-role system: Student and Professor with separate UIs
+- Course catalog with category filtering (Math, Science, Arabic, English, Physics)
+- Course enrollment and favorites
+- Lecture management with YouTube video playback (uses unlisted YouTube links as content source, not for public viewing)
+- Professor tools: create/edit/delete courses and lectures via long-press dialogs
+- Student star rating system for courses
+- Profile management with editable fields and password change
+- Dark mode toggle
+- Contact and social media links in settings
 
-A few resources to get you started if this is your first Flutter project:
+## Project Demo
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Watch the full demo video here:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```text
+https://drive.google.com/file/d/1kD8KmU5hdo1VXxRdPVvjlNOE3x3HxrqZ
+```
+
+## Tech Stack & Architecture
+
+| Layer | Technology |
+|-------|-----------|
+| Frontend | Flutter (Dart) |
+| Backend | Firebase Auth, Firestore |
+| State Management | Cubit (Bloc) |
+| Architecture | Layer-First MVVM |
+
+**Architecture layers:** `Core/` → `Models/` → `Repositories/` → `ViewModels/` → `Views/`
+
+## Setup & Installation
+
+```bash
+# 1. Install dependencies
+flutter pub get
+
+# 2. Run the app (ensure a device/emulator is connected)
+flutter run
+```
